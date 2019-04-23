@@ -1,0 +1,178 @@
+.button {
+	background-color:#599bb3;
+	border-radius:0.2em;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	padding:0.5em 1em;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	cursor: 	pointer;	
+	margin: 0.5em;
+}
+
+.button:hover {
+	background-color:#408c99;
+	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24);	
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+body{
+	background-color: #BFBFBF;
+	font-family: times new roman, arial;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Arial;
+}
+
+input, select{
+	background-color: 	#FAFFE0;
+	border: solid 1px #FFF;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 0.5em;
+	margin-bottom: 	10px;
+}
+
+#campoNome{
+	text-transform: capitalize;
+}
+
+#buscar{
+	text-transform: capitalize;
+}
+#telaLogin{
+	position: 	relative;
+	width: 35%;
+	height: 50%;
+	margin:	auto;
+	padding: 2em 0 2em 0;
+	background-color: gray;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	border-radius: 	12px;
+}
+
+.navbar{
+	position: 0 0 0	fixed;
+	margin: -10px;
+	background-color: 	blue;
+	height: 1.5em;
+	color: white;
+	font-size: 	1.5em;
+	font-weight: 	bold;
+	padding: 	0.5em;
+
+}
+
+
+.tabela{
+	position: relative;
+	width: 100%;
+	padding: 0.5em;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tabela table{
+	width:100%;
+}
+
+.tabela input{
+	width: 90%;
+}
+.tabela select {
+	width: 96%;
+}
+
+.half {
+	width: 50%;
+}
+.half select{
+	max-width: 94%;
+}
+
+hr{
+	color: #000;
+	margin-top: 2em;	
+	width: 100%;
+	height: 0.1em;
+	border: 0.1em solid;
+	background: #090909;
+}
+
+.logout{
+	position: relative;
+	top: 1em;
+	background-color: gray;
+	float: right;
+}
+
+
+.container{
+	position: relative;
+	padding: 1em;
+	margin: 1em;
+}
+
+.resultados{
+	position: relative;
+	margin-top: 2em;
+	width: 100%;
+	
+}
+
+.icon{
+	height: 20px;
+	width: 20px;
+}
+
+.rodape{
+	background-color: #090909;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 110%;
+	padding-top: 0.5em;
+	margin-left: -2.5em;
+	margin-bottom: -5%;
+}
+
+.rodapeIndex{
+	background-color: #090909;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 0.5em;
+}
+footer p{
+	padding-left: 0.5em;
+	margin: 0.5em;
+}
+
+#copyright{
+	text-align: center;
+	background-color: #000;
+	margin:0;
+}
+
+@media (min-width: 600px) {
+  .navbar {
+    font-size: 3em;
+  }
+}
